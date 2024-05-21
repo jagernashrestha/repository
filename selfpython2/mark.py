@@ -1,0 +1,20 @@
+mark = int (input("ENTER YOUR MARK") )
+
+if isinstance (mark, int):
+    print(mark)
+
+if mark>90:
+    print("you scored distinction")
+
+elif mark<80:
+    print("you scored first division")
+
+elif (mark<70):
+    print("you scored second division")
+
+else:
+    print("SORRY YOU FAILED")
+
+
+print("hey",6,"nono", sep="~")
+ 
